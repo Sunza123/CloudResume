@@ -1,0 +1,45 @@
+html {
+  /* px means "pixels". The base font size is now 14 pixels high */
+    font-size: 14px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+    font-family: "Lora", serif;
+}
+
+h1,
+h2 {
+    color: #3c78d8
+}
+
+h1 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+body {
+    margin: 0px;
+}
+
+nav ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111111;
+}
