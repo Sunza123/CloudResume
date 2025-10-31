@@ -1,18 +1,23 @@
 html {
-  /* px means "pixels". The base font size is now 14 pixels high */
+    /* px means "pixels". The base font size is now 14 pixels high */
     font-size: 14px;
-  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+    /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
     font-family: "Lora", serif;
 }
 
 h1,
 h2 {
-    color: #3c78d8
+    color: #3c78d8;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+h2 {
+    margin-top: 200px;
 }
 
 body {
@@ -31,15 +36,27 @@ nav ul {
     justify-content: center;
     font-size: larger;
     font-weight: bolder;
+    z-index: 1;
 }
-
 nav ul li a {
     display: block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
 }
-
 nav ul li a:hover {
     background-color: #111111;
+}
+
+.portrait {
+    position: relative;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+} 
+.portrait img {
+    width: 100%;
+    height: auto;
 }
