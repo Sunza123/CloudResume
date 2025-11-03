@@ -112,11 +112,17 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.container h3 {
+.container div {
+    width: 250px;
+    border-radius: 25px;
+    background-color: darkgrey;
+    margin: 15px;
+}
+.container div h3 {
     justify-content: center;
     text-align: center;
 }
-.container ul li{
+.container div h3 ul {
     justify-content: left;
     text-align: left;
 }
