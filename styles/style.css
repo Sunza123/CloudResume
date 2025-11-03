@@ -1,7 +1,5 @@
 html {
-    /* px means "pixels". The base font size is now 14 pixels high */
     font-size: 14px;
-    /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
     font-family: "Lora", serif;
 }
 
@@ -21,6 +19,8 @@ dt {
     text-decoration-color: black;
 }
 
+
+
 nav ul {
     position: fixed;
     top: 0;
@@ -35,32 +35,37 @@ nav ul {
     font-weight: bolder;
     z-index: 1;
 }
+
 nav ul li a {
     display: block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
 }
+
 nav ul li a:hover {
     background-color: #111111;
 }
 
-.about{
+.about {
     max-width: fit-content;
     text-align: center;
     margin-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .about h2 {
     color: #3c78d8;
     padding-top: 40px;
 
 }
+
 .about h2 p {
     float: right;
     font-size: larger;
 }
+
 .about div {
     float: left;
     width: 300px;
@@ -71,7 +76,8 @@ nav ul li a:hover {
     margin-right: 10%;
     background-color: lightgray;
 }
-.about div img{
+
+.about div img {
     width: 100%;
     height: auto;
 }
@@ -85,12 +91,13 @@ nav ul li a:hover {
     border-radius: 25px;
     padding: 20px;
 }
+
 .experience h2 {
     color: #3c78d8;
     text-align: center;
 }
 
-.skills{
+.skills {
     margin-bottom: 100px;
     background-color: lightgray;
     margin-left: 5%;
@@ -98,9 +105,16 @@ nav ul li a:hover {
     border-radius: 25px;
     padding: 20px;
 }
+
 .skills h2 {
     color: #3c78d8;
     text-align: center;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid #3c78d8;
+    align-items: center;
 }
 
 .container {
@@ -108,16 +122,20 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .container div {
     width: 250px;
     border-radius: 25px;
     background-color: darkgrey;
     margin: 15px;
+    padding: 5px;
 }
+
 .container div h3 {
     justify-content: center;
     text-align: center;
 }
+
 .container div h3 ul {
     justify-content: left;
     text-align: left;
