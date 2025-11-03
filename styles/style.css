@@ -5,23 +5,24 @@ html {
     font-family: "Lora", serif;
 }
 
-h1,
-h2 {
+h1 {
     color: #3c78d8;
     text-align: center;
-}
-
-h1 {
-    margin-top: 45px;
-    margin-bottom: 45px;
-}
-
-h2 {
-    margin-top: 200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 body {
     margin: 0px;
+}
+
+dt {
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+
+li {
+    text-align: left;
 }
 
 nav ul {
@@ -33,7 +34,7 @@ nav ul {
     padding: 0;
     background-color: #333333;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-size: larger;
     font-weight: bolder;
     z-index: 1;
@@ -48,15 +49,74 @@ nav ul li a:hover {
     background-color: #111111;
 }
 
-.portrait {
-    position: relative;
-    left: 400px;
-    width: 200px;
-    height: 200px;
+.about{
+    max-width: fit-content;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about h2 {
+    color: #3c78d8;
+    padding-top: 40px;
+
+}
+.about h2 p {
+    float: right;
+    font-size: larger;
+}
+.about div {
+    float: left;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     border-radius: 50%;
-} 
-.portrait img {
+    margin-left: 11%;
+    margin-right: 10%;
+    background-color: lightgray;
+}
+.about div img{
     width: 100%;
     height: auto;
+}
+
+
+.experience {
+    margin-bottom: 50px;
+    background-color: lightgray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    padding: 20px;
+}
+.experience h2 {
+    color: #3c78d8;
+    text-align: center;
+}
+
+.skills{
+    margin-bottom: 100px;
+    background-color: lightgray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    padding: 20px;
+}
+.skills h2 {
+    color: #3c78d8;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container h3 {
+    justify-content: center;
+    text-align: center;
+}
+.container ul li{
+    justify-content: left;
+    text-align: left;
 }
