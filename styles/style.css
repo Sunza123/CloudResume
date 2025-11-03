@@ -21,10 +21,6 @@ dt {
     text-decoration-color: black;
 }
 
-li {
-    text-align: left;
-}
-
 nav ul {
     position: fixed;
     top: 0;
