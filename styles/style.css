@@ -19,8 +19,6 @@ dt {
     text-decoration-color: black;
 }
 
-
-
 nav ul {
     position: fixed;
     top: 0;
@@ -82,7 +80,6 @@ nav ul li a:hover {
     height: auto;
 }
 
-
 .experience {
     margin-bottom: 50px;
     background-color: lightgray;
@@ -139,4 +136,39 @@ nav ul li a:hover {
 .container div h3 ul {
     justify-content: left;
     text-align: left;
+}
+
+footer {
+    max-width: 100%;
+    margin: 0%;
+    margin-bottom: 0%;
+    background-color: #333333;
+    flex: 0 0 auto;
+    padding: 1rem;
+}
+
+.download {
+    justify-content: center;
+    display: flex;
+}
+
+.download div {
+    width: 150px;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+
+.download div ul {
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+.download div ul li a {
+    text-decoration: none;
+}
+
+.download div ul li a:hover {
+    text-decoration-line: underline;
 }
