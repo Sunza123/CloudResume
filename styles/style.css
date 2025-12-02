@@ -45,18 +45,14 @@ nav ul li a:hover {
     background-color: #111111;
 }
 
-
-
 .about {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-bottom: 20px;
-
 }
 
-.about div {
-    margin: 15px;
+.me {
     width: 500px;
 }
 
