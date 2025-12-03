@@ -48,13 +48,10 @@ nav ul li a:hover {
 .about {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-bottom: 20px;
 }
 
-.me {
-    width: 500px;
-}
 
 .about h2 {
     color: #3c78d8;
@@ -131,9 +128,10 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.container div h3 ul {
+.container div ul {
     justify-content: left;
     text-align: left;
+    margin-top: -10px;
 }
 
 footer {
