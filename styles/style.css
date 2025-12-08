@@ -168,3 +168,8 @@ footer {
 .download div ul li a:hover {
     text-decoration-line: underline;
 }
+
+.me{
+    margin-left: 5%;
+    margin-right: 5%;
+}
